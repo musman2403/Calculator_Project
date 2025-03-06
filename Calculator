@@ -8,6 +8,7 @@ a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Enter the second number: ");
 b = Convert.ToDouble(Console.ReadLine());
 
+ multiplication
  division
 // Division method
 double quotient = a / b;
@@ -16,4 +17,9 @@ Console.WriteLine("Division: " + quotient);
 //Multiplication method
  double product = a * b;
 Console.WriteLine("Multiplication: " + product);
- multiplication
+multiplication
+
+//Subtraction Branch
+double difference = a - b;
+Console.WriteLine("Subtraction: " + difference);
+subtraction
