@@ -1,2 +1,13 @@
 Console.WriteLine("Name: Muhammad Usman");
 Console.WriteLine("Roll Number: 24-St-074");
+
+double a, b;
+Console.WriteLine("Enter the first number: ");
+a = Convert.ToDouble(Console.ReadLine());
+        
+Console.WriteLine("Enter the second number: ");
+b = Convert.ToDouble(Console.ReadLine());
+
+//Multiplication method
+ double product = a * b;
+Console.WriteLine("Multiplication: " + product);
